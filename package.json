@@ -1,0 +1,19 @@
+{
+    "name": "blocksdk",
+    "version": "1.0.1",
+    "description": "Bonus Claim Settings for Marketing Cloud",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sh-pers/admiralv2"
+    },
+    "main": "blocksdk.js",
+    "author": "Sandra Huett",
+    "license": "BSD-3-Clause",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "ejs": "^2.5.9",
+        "express": "^4.16.3"
+    }
+}
