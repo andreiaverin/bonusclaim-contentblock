@@ -12,10 +12,10 @@ $(document).ready(function() {
     issuance.change(function(){ //when the rating changes
 			var value= this.checked;
 			console.log(value);						
-			issuanceSettings.addClass('hidden'); //hide everything and reveal as needed
+			issuanceSettings.addClass('hidden'); // hide everything and reveal as needed
 			
 			if (value == true){
-				issuanceSettings.removeClass('hidden'); //show feedback_bad					
+				issuanceSettings.removeClass('hidden'); // show feedback_bad					
 			}
 		});	
 
