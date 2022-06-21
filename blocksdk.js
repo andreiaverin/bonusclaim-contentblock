@@ -38,7 +38,7 @@ var SDK = function (whitelistOverride, sslOverride) {
 				return;
 			}
 		}
-		// if the message is not from the validated origin it gets ignored
+		// if the message is not from the validated origin it gets ignored :)
 		if (!this._parentOrigin || this._parentOrigin !== message.origin) {
 			return;
 		}
